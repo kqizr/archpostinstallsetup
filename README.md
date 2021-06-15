@@ -4,3 +4,8 @@ This also requires git to be installed, Most likely installed during install or 
 
 # Install Git
 sudo pacman -Syu git
+
+# Installation
+git clone https://github.com/sneccolol2k/myarchsetup.git && cd myarchsetup
+sudo chmod +x afterarchinstall.sh
+./afterarchinstall.sh
