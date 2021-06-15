@@ -7,7 +7,7 @@ makepkg -si
 cd ..
 
 # Installs Essential Packages I will need
-yay -S plasma ark dolphin konsole ark papirus-icon-theme librewolf-bin latte-dock mpv 
+yay -S plasma ark dolphin konsole ark papirus-icon-theme librewolf-bin latte-dock mpv qbittorrent
 sudo systemctl enable sddm
 
 # Installs necessary fonts.
