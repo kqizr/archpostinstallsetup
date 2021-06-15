@@ -7,5 +7,7 @@ sudo pacman -Syu git
 
 # Installation
 git clone https://github.com/sneccolol2k/myarchsetup.git && cd myarchsetup
+
 sudo chmod +x afterarchinstall.sh
+
 ./afterarchinstall.sh
