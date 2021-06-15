@@ -1,11 +1,5 @@
 #!/bin/sh
 
-#Installs Yay, The AUR Helper.
-git clone https://aur.archlinux.org/yay-bin.git
-cd yay-bin
-makepkg -si
-cd ..
-
 # Installs Essential Packages I will need
 yay -S plasma ark dolphin konsole ark papirus-icon-theme librewolf-bin latte-dock mpv qbittorrent
 sudo systemctl enable sddm
