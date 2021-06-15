@@ -1,5 +1,5 @@
 # My Arch Setup
-This is what i would do after installing Arch Linux.
+This shell script installs the software i will install after an Arch install.
 This also requires git to be installed, Most likely installed during install or after the install.
 
 # Install Git if you haven't
