@@ -2,7 +2,7 @@
 This is what i would do after installing Arch Linux.
 This also requires git to be installed, Most likely installed during install or after the install.
 
-# Install Git
+# Install Git if you haven't
 sudo pacman -Syu git
 
 # Installation
