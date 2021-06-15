@@ -1,7 +1,9 @@
 #!/bin/sh
 
 # Installs Essential Packages I will need
-sudo pacman -S plasma ark dolphin konsole ark papirus-icon-theme librewolf-bin latte-dock mpv qbittorrent
+sudo pacman -S plasma ark dolphin konsole ark papirus-icon-theme firefox latte-dock mpv qbittorrent
+
+# Start The Display Manager
 sudo systemctl enable sddm
 
 # Installs necessary fonts.
