@@ -8,3 +8,9 @@ sudo systemctl enable sddm
 
 # Installs necessary fonts.
 sudo pacman -S ttf-liberation ttf-dejavu adobe-source-sans-pro-fonts ttf-droid ttf-bitstream-vera ttf-anonymous-pro ttf-ubuntu-font-family
+
+# Install yay
+cd 
+git clone https://aur.archlinux.org/yay-bin.git
+cd yay-bin
+makepkg -si
