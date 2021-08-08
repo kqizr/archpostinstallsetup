@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # Installs Essential Packages I will need
-sudo pacman -S i3-gaps rofi picom cmus qutebrowser lightdm lightdm-gtk-greeter
+sudo pacman -S i3-gaps rofi picom cmus qutebrowser lightdm lightdm-gtk-greeter alacritty
 
 # Start The Display Manager
 sudo systemctl enable lightdm
