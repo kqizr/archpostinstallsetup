@@ -1,4 +1,4 @@
-# My Arch Setup
+# My Arch Post-Install Setup
 This shell script installs the software i will install after an Arch install.
 This also requires git to be installed, Most likely installed during install or after the install.
 
